@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website Example</title>
+    <link rel="stylesheet" href="task4.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">ResponsiveSite</div>
+                <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">☰</button>
+                <nav id="mainNav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Our Website</h1>
+            <p>Experience responsive design that works perfectly on all devices, from desktop computers to mobile phones.</p>
+            <a href="#features" class="cta-button">Explore Features</a>
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="main-content">
+            <div class="content">
+                <section class="section">
+                    <h2>Responsive Web Design</h2>
+                    <p>This website demonstrates how to create a mobile-friendly layout using CSS media queries. The design adapts seamlessly across different screen sizes, ensuring optimal user experience on desktops, tablets, and mobile devices.</p>
+                    <p>Key responsive features include flexible layouts, scalable images, readable typography, and touch-friendly navigation. The layout automatically adjusts from a multi-column desktop design to a single-column mobile layout.</p>
+                </section>
+
+                <section class="section" id="features">
+                    <h2>Key Features</h2>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">📱</div>
+                            <h3>Mobile First</h3>
+                            <p>Designed with mobile users in mind, ensuring fast loading and easy navigation on smartphones.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">💻</div>
+                            <h3>Desktop Optimized</h3>
+                            <p>Full-featured desktop experience with multi-column layouts and advanced interactions.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🎨</div>
+                            <h3>Modern Design</h3>
+                            <p>Clean, contemporary design with smooth transitions and engaging visual elements.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2>Media Query Breakpoints</h2>
+                    <p>This website uses several media query breakpoints to ensure optimal display across devices:</p>
+                    <ul style="margin-left: 2rem; margin-top: 1rem;">
+                        <li><strong>1024px and below:</strong> Tablet adjustments</li>
+                        <li><strong>768px and below:</strong> Mobile layout activation</li>
+                        <li><strong>480px and below:</strong> Small mobile optimizations</li>
+                    </ul>
+                </section>
+
+                <section class="section">
+                    <h2>Implementation Guide</h2>
+                    <p>To use these files in your project:</p>
+                    <ol style="margin-left: 2rem; margin-top: 1rem;">
+                        <li>Save the HTML content as <code>index.html</code></li>
+                        <li>Save the CSS content as <code>styles.css</code></li>
+                        <li>Make sure both files are in the same folder</li>
+                        <li>Open <code>index.html</code> in your web browser</li>
+                        <li>Test responsiveness using browser developer tools</li>
+                    </ol>
+                </section>
+            </div>
+
+            <aside class="sidebar">
+                <h3>Quick Navigation</h3>
+                <ul>
+                    <li><a href="#home">Home Page</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Info</a></li>
+                </ul>
+
+                <h3>Recent Updates</h3>
+                <ul>
+                    <li>Mobile navigation improved</li>
+                    <li>Touch gestures added</li>
+                    <li>Loading speed optimized</li>
+                    <li>Accessibility enhanced</li>
+                </ul>
+
+                <h3>File Structure</h3>
+                <ul>
+                    <li>📄 index.html</li>
+                    <li>🎨 styles.css</li>
+                    <li>📱 Mobile responsive</li>
+                    <li>💻 Desktop optimized</li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ResponsiveSite. Demonstrating mobile-friendly web design with CSS media queries.</p>
+        </div>
+    </footer>
+
+    <script src="task4.js"></script>
+</body>
+</html>
